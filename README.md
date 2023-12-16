@@ -32,24 +32,41 @@ INSTALLED_APPS = [ 'django.contrib.admin', 'django.contrib.auth', 'django.contri
 
 sudo apt install tree
 ├── apis
+
 │   ├── __init__.py
+
 │   ├── admin.py
+
 │   ├── apps.py
+
 │   ├── migrations
+
 │   │   └── __init__.py
+
 │   ├── models.py
+
 │   ├── tests.py
+
 │   └── views.py
 ├── geeksforgeeks
+
 │   ├── __init__.py
+
 │   ├── __pycache__
+
 │   │   ├── __init__.cpython-310.pyc
 │   │   └── settings.cpython-310.pyc
+
 │   ├── asgi.py
+
 │   ├── settings.py
+
 │   ├── urls.py
+
 │   └── wsgi.py
+
 └── manage.py
+
 
 #commands
 
