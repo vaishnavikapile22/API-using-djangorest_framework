@@ -19,14 +19,26 @@
 To initialize REST Framework in your project, go to settings.py, and in INSTALLED_APPS add ‘rest_framework’ at the bottom to create api in python django.
 
 Application definition
-INSTALLED_APPS = [ 'django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes', 'django.contrib.sessions', 'django.contrib.messages', 'django.contrib.staticfiles', 'rest_framework', ]
+INSTALLED_APPS = [ 'django.contrib.admin', 
+'django.contrib.auth', 
+'django.contrib.contenttypes',
+'django.contrib.sessions', 
+'django.contrib.messages', 
+'django.contrib.staticfiles',
+'rest_framework', ]
 
 #Create a app
 
 python manage.py startapp apis
 
 add apis
-INSTALLED_APPS = [ 'django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes', 'django.contrib.sessions', 'django.contrib.messages', 'django.contrib.staticfiles', 'rest_framework', 'apis', ]
+INSTALLED_APPS = [ 'django.contrib.admin', 
+'django.contrib.auth',
+'django.contrib.contenttypes', 
+'django.contrib.sessions',
+'django.contrib.messages',
+'django.contrib.staticfiles', 
+'rest_framework', 'apis', ]
 
 #for structure of project
 
